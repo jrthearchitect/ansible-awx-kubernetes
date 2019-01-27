@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: tower.mydomain.com
+  - host: sapi.eastus.cloudapp.azure.com
     http:
       paths:
       - path: /
