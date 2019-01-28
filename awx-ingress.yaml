@@ -6,10 +6,9 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: sapi.eastus.cloudapp.azure.com
-    http:
+  - http:
       paths:
       - path: /
         backend:
           serviceName: awx-web
-          servicePort: 80
+          servicePort: 8051
