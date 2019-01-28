@@ -5,6 +5,8 @@ metadata:
   annotations:
     service.beta.kubernetes.io/azure-load-balancer-internal: "true"
 spec:
+  type: LoadBalancer
+  externalTrafficPolicy: Local
   ports:
   - name: http
     port: 80
