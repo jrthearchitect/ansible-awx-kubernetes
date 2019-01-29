@@ -11,4 +11,4 @@ spec:
       - path: /
         backend:
           serviceName: awx-web
-          servicePort: 8051
+          servicePort: 80
