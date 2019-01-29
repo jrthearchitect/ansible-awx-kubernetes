@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: awx-web
-        image: geerlingguy/awx_web:latest
+        image: ansible/awx_web:latest
         ports:
         - name: http
           containerPort: 8052

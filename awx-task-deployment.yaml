@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: awx-task
-        image: geerlingguy/awx_task:latest
+        image: ansible/awx_task:latest
         env:
         - name: DATABASE_HOST
           value: awx-db
