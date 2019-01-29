@@ -6,12 +6,11 @@ metadata:
     service.beta.kubernetes.io/azure-load-balancer-internal: "true"
 spec:
   type: LoadBalancer
-  loadBalancerIP: 10.215.196.4
   externalTrafficPolicy: Local
   ports:
   - name: http
     port: 80
-    targetPort: 8051
+    targetPort: 8052
   selector:
     app: awx
     role: web
